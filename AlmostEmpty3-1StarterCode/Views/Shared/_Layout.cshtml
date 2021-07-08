@@ -1,0 +1,24 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    @*All content within ViewBag.Title from the HomeController will be inside of <title></title>*@
+    @*<title>@ViewBag.Title</title>*@
+
+    @*All content within ViewBag.Title from the HomeController will be inside of <title></title>*@
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my first site</h1>
+    </header>
+    <main>
+        @*All the content from _Layout will be injected inside of <main></main>*@
+        @RenderBody()
+    </main>
+    <footer>
+        @*dynamically update the copyright year using C#*@
+        &copy;@DateTime.Today.Year;
+    </footer>
+</body>
+</html>
