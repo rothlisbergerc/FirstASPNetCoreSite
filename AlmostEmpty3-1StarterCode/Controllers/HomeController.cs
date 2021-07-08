@@ -12,5 +12,11 @@ namespace AlmostEmpty3_1StarterCode.Controllers
         {
             return View();
         }
+
+        // Create an About page. (Right click About() and add view.)
+        public IActionResult About()
+        {
+            return View();
+        }
     }
 }
