@@ -1,3 +1,42 @@
 ﻿h1{
     text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+}
+
+#rainbow-text{
+    text-shadow: 1px 1px grey;
+}
+
+#red{
+    color: red;
+}
+
+#orange {
+    color: orange;
+}
+
+#yellow {
+    color: yellow;
+}
+
+#green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+#indigo {
+    color: indigo;
+}
+
+#violet {
+    color: violet;
 }

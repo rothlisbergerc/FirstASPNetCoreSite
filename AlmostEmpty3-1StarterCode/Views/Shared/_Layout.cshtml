@@ -16,7 +16,8 @@
     <nav>
         @*Navigation link that goes to the home page:*@
         <a asp-controller="Home" asp-action="Index">Home Page</a><br />
-        <a asp-controller="Home" asp-action="About">About Page</a>
+        <a asp-controller="Home" asp-action="About">About Page</a><br />
+        <a asp-controller="Home" asp-action="Rainbow">Rainbow Page</a>
 
     </nav>
     <main>
@@ -25,7 +26,7 @@
     </main>
     <footer>
         @*dynamically update the copyright year using C#*@
-        &copy;@DateTime.Today.Year;
+        &copy;@DateTime.Today.Year
     </footer>
 </body>
 </html>
