@@ -7,11 +7,18 @@
 
     @*All content within ViewBag.Title from the HomeController will be inside of <title></title>*@
     <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css"/>
 </head>
 <body>
     <header>
         <h1>Welcome to my first site</h1>
     </header>
+    <nav>
+        @*Navigation link that goes to the home page:*@
+        <a asp-controller="Home" asp-action="Index">Home Page</a><br />
+        <a asp-controller="Home" asp-action="About">About Page</a>
+
+    </nav>
     <main>
         @*All the content from _Layout will be injected inside of <main></main>*@
         @RenderBody()

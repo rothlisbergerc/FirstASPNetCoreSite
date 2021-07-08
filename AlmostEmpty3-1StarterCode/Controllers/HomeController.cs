@@ -20,5 +20,11 @@ namespace AlmostEmpty3_1StarterCode.Controllers
         {
             return View();
         }
+
+        // Create a Rainbow page.
+        public IActionResult Rainbow()
+        {
+            return View();
+        }
     }
 }
